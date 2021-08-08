@@ -1,0 +1,95 @@
+,question,ans,website
+0,Question 1. What Is Python? What Are The Benefits Of Using Python?,"Answer :
+Python is a programming language with objects, modules, threads, exceptions and automatic memory management. The benefits of pythons are that it is simple and easy, portable, extensible, build-in data structure and it is an open source.",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+1,Question 2. How Python Can Be Used In Software Testing?,"Answer :
+To generate test data; parse test results; generate reports; testing API calls etc.
+Python to extract requirements from a Word document.
+For testing tasks automation, setting up environments for tests, extracting performance data, etc…
+Testers use Python extensively in many companies with Selenium for test automation.
+For writing desktop applications used by testers.
+Test data manipulation.
+To build test environment
+Testing with IronPython on .NET
+Perl Scripting Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+2,Question 3. What Python Frameworks Do You Know?,"Answer :
+Framework called Web2py, PAMIE (Python automation Module for I. E.), The py.test framework
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13;",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+3,Question 4. What Tools That Helps Python Development Do You Know?,"Answer :
+There are good tools for helping Python development such as Notepad++ with the PyNPP plugin and Eclipse with PyDev and PyUnit
+Perl Scripting Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+4,Question 5. The Following Is Displayed By A Print Function Call: Yesterday Today Tomorrow Please Write An Example Of A Print Function?,"Answer :
+print(‘yesterdayntodayntomorrow’)
+Python Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+5,Question 6. The Following Is Displayed By A Print Function Call?,"Answer :
+hello-how-are-you
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13;",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+6,Question 7. Please Write An Example Of A Print Function?,"Answer :
+print(‘hello’ + ‘-‘ + ‘how’ + ‘-‘ + ‘are’ + ‘-‘ + ‘you’)
+Python Tutorial C++ Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+7,Question 8. What Does The Expression Len(”) Evaluate To?,"Answer :
+0
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13;",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+8,Question 9. Considering The Following Code: S = ‘catandapple’ Write An Expression That Evaluate To ‘apple’?,"Answer :
+s[-5:]
+PHP Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+9,Question 10. Write An Expression That Evaluate To True?,"Answer :
+len(‘aaddgg’) == 6
+C++ Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+10,Question 11. What Are “tuples”?,"Answer :
+Tuples are immutable sequences: they cannot be modified. Tuples use parentheses instead of square brackets: tup = (‘test’, 5, -0.2)
+C Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+11,Question 12. What Are The Rules For Legal Python Names?,"Answer :
+Names must start with a letter or _.
+Names must contain only letters, digits, and _.
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13; Perl Scripting Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+12,Question 13. Which Command Do You Use To Exit Help Window Or Help Command Prompt?,"Answer :
+quitWhen you type quit at the help’s command prompt, python shell prompt will appear by closing the help window automatically
+PHP Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+13,"Question 14. Does The Functions Help() And Dir() List The Names Of All The Built_in Functions And Variables? If No, How Would You List Them?","Answer :
+No. Built-in functions such as max(), min(), filter(), map(), etc is not apparent immediately as they are available as part of standard module.To view them, we can pass the module ” builtins ” as an argument to “dir()”. It will display the built-in functions, exceptions, and other objects as a list.>>>dir(__builtins )
+[‘ArithmeticError’, ‘AssertionError’, ‘AttributeError’, ……… ]
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13;",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+14,Question 15. Explain How Python Does Compile-time And Run-time Code Checking?,"Answer :
+Python performs some amount of compile-time checking, but most of the checks such as type, name, etc are postponed until code execution. Consequently, if the Python code references a user -defined function that does not exist, the code will compile successfully. In fact, the code will fail with an exception only when the code execution path references the function which does not exists.
+Ruby on Rails Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+15,Question 16. What Is A “unittest” In Python?,"Answer :
+The unit testing framework of Python is known as “unittest”.  It supports the sharing of setups, automation testing, shutdown code for tests, aggregation of tests into collections, among others.
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13; C Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+16,Question 17. Define “slicing”?,"Answer :
+“Slicing” is a mechanism to select a range of items from sequence types like list, tuple, strings etc.
+Ruby Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+17,Question 18. What Are Generators In Python?,"Answer :
+Generators are the means to implement iterators. It is a normal function except that it yields “expression” in the “function”.
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13; Python Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+18,Question 19. Define “docstring”?,"Answer :
+“Docstring” is a Python documentation string. It is the means to document Python “functions”, “modules” and “classes”.
+Ruby on Rails Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+19,Question 20. How Do You Copy An Object In Python?,"Answer :
+copy.copy () or copy.deepcopy()
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13; Django Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+20,Question 21. What Is A “negative Index”?,"Answer :
+Python sequences can be indexed as positive and negative numbers. For ac positive index, 0 is the first number, 1 is the second etc.  For a negative index, (-1) is the last index and (-2) is the second etc.",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+21,Question 22. How Do You Convert A Number Into A String?,"Answer :
+By using the inbuilt function str().
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13; Django Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+22,Question 23. What Is The Difference Between “xrange” And “range”?,"Answer :
+“Xrange” returns the “Xrange” object while range returns the “list” irrespective of the size of the “range”.
+Lisp programming Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+23,Question 24. Define “module” And “package”?,"Answer :
+Each Python program file is a “module”, which imports other modules like “objects” and “attributes”.
+A Python program folder is a “package” of “modules”.  A package can have “modules” or “subfolders”.
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13; C++ Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+24,Question 25. What Is Pep 8?,"Answer :
+PEP 8 is a coding convention, a set of recommendation, about how to write your Python code more readable.
+Ruby on Rails 2.1 Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+25,Question 26. What Is Pickling And Unpickling?,"Answer :
+Pickle module accepts any Python object and converts it into a string representation and dumps it into a file by using dump function, this process is called pickling.  While the process of retrieving original Python objects from the stored string representation is called unpickling.
+&#13; (adsbygoogle = window.adsbygoogle || []).push({});&#13; R Programming language Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+26,Question 27. How Python Is Interpreted?,"Answer :
+Python language is an interpreted language. Python program runs directly from the source code. It converts the source code that is written by the programmer into an intermediate language, which is again translated into machine language that has to be executed.
+PHP Interview Questions",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html
+27,Question 28. How Memory Is Managed In Python?,"Answer :
+Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap and interpreter takes care of this Python private heap.
+The allocation of Python heap space for Python objects is done by Python memory manager.  The core API gives access to some tools for the programmer to code.
+Python also have an inbuilt garbage collector, which recycle all the unused memory and frees the memory and makes it available to the heap space.
+Lisp programming Tutorial",https://www.wisdomjobs.com/e-university/python-automation-testing-interview-questions.html

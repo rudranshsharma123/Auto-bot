@@ -1,0 +1,334 @@
+,question,ans,website
+0,1) What is Selenium and what is composed of?,"Selenium is a suite of tools for automated web testing.  It is composed of
+Selenium IDE (Integrated Development Environment) :  It is a tool for recording and playing back.  It is a firefox plugin
+WebDriver and RC:  It provide the APIs for a variety of languages like Java, .NET, PHP, etc. With most of the browsers Webdriver and RC works.
+Grid: With the help of Grid you can distribute tests on multiple machines so that test can be run parallel which helps in cutting down the time required for running in browser test suites",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+1,2) What is Selenium 2.0?,"Web Testing tools Selenium RC and WebDriver are consolidated in single tool in Selenium 2.0
+What is Selenium 2.0",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+2,3) Mention what is Selenium 3.0?,"Selenium 3.0 is the latest version of Selenium. It has released 2 beta versions of selenium 3.0 with few of the below changes:
+Here are few new features added to Selenium 3.0
+Beta 1 updates
+Beta 2 updates (Only for Java)
+Minimum Java version is now 8+
+System property webdriver.gecko.driver now forces the server in marionette or legacy firefox driver mode, ignoring any related Desired Capability
+It will support for Firefox Via Mozilla’s geckodriver
+Grid fixes NPE’s on registration when -browser not specified
+Support for Edge is provided by MS
+It now supports Safari on MacOS via Apple’s own Safari driver
+Update GeckoDriver –port argument in all bindings",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+3,4) How will you find an element using Selenium?,"In Selenium every object or control in a web page is referred as an elements, there are different ways to find an element in a web page they are
+ID
+Name
+Tag
+Attribute
+CSS
+Linktext
+PartialLink Text
+Xpath etc",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+4,5) List out the test types that are supported by Selenium?,"For web based application testing selenium can be used
+The test types can be supported are
+a) Functional, Learn More about Functional Testing.
+b) Regression
+For post release validation with continuous integration automation tool could be used
+a) Jenkins
+b) Hudson
+c) Quick Build
+d) CruiseCont",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+5,6) Explain what is assertion in Selenium and what are the types of assertion?,"Assertion is used as a  verification point. It verifies that the state of the application conforms to what is expected.  The types of assertion are “assert” , “verify” and “waitFor”.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+6,7) Mention what is the use of X-path?,"X-Path is used to find the WebElement in web pages. It is also useful in identifying the dynamic elements.
+Refer Complete Guide on XPath",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+7,8) Explain the difference between single and double slash in X-path?,"Single slash ‘/ ’
+Single slash ( / ) start selection from the document node
+It allows you to create ‘absolute’ path expressions
+Double Slash ‘// ’
+Double slash ( // ) start selection matching anywhere in the document
+It enables to create ‘relative’ path expressions",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+8,9) List out the technical challenges with Selenium?,"Technical challenges with Selenium are
+Selenium supports only web based applications
+It does not support the Bitmap comparison
+For any reporting related capabilities have to depend on third party tools
+No vendor support for tool compared to commercial tools like HP UFT
+As there is no object repository concept in Selenium, maintainability of objects becomes difficult",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+9,10) What is the difference between type keys and type commands ?,TypeKeys() will trigger JavaScript event in most of the cases whereas .type() won’t. Type key populates the value attribute using JavaScript whereas .typekeys() emulates like actual user typing,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+10,11) What is the difference between verify and assert commands?,"Assert:  Assert allows to check whether an element is on the page or not. The test will stop on the step failed, if the asserted element is not available. In other words, the test will terminated at the point where check fails.
+Verify: Verify command will check whether the element is on the page, if it is not then the test will carry on executing.  In verification, all the commands are going to run guaranteed even if any of test fails.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+11,12) What is JUnit Annotations and what are different types of annotations which are useful ?,"In JAVA a special form of syntactic meta-data can be added to Java source code, this is know as Annotations.  Variables, parameters, packages, methods and classes are annotated some of the Junit annotations which can be useful are
+Test
+Before
+After
+Ignore
+BeforeClass
+AfterClass
+RunWith",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+12,13) While using click command can you use screen coordinate?,"To click on specific part of element, you would need to use clickAT command.  ClickAt command accepts element locator and x, y co-ordinates as arguments- clickAt (locator, cordString)",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+13,14)  What are the advantages of Selenium?,"It supports C#, PHP, Java, Perl, Phython
+It supports different OS like Windows, Linux and Mac OS
+It has got powerful methods to locate elements (Xpath, DOM , CSS)
+It has highly developer community supported by Google",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+14,15) Why testers should opt for Selenium and not QTP?,"Selenium is more popular than QTP as
+Selenium is an open source whereas QTP is a commercial tool
+Selenium is used specially for testing web based applications while QTP can be used for testing client server application also
+Selenium supports Firefox, IE, Opera, Safari  on operating systems like Windows, Mac, Linux etc. however QTP is limited to Internet Explorer on Windows.
+Selenium supports many programming languages like Ruby, Perl, Python whereas QTP supports only VB script
+Advanced Selenium Automation Testing Interview Questions for 3/5/10 Years Experience
+Following are the top Selenium interview questions for experience candidates:",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+15,16) What are the four parameter you have to pass in Selenium?,"Four parameters that you have to pass in Selenium are
+Host
+Port Number
+Browser
+URL",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+16,17) What is the difference between setSpeed() and sleep() methods?,"Both will delay the speed of execution.
+Thread.sleep () :  It will stop the current (java) thread for the specified period of time.  Its done only once
+It takes a single argument in integer format
+Ex: thread.sleep(2000)- It will wait for 2 seconds
+It waits only once at the command given at sleep
+SetSpeed () :  For specific amount of time it will stop the execution for every selenium command.
+It takes a single argument in integer format
+Ex: selenium.setSpeed(“2000”)- It will wait for 2 seconds
+Runs each command  after setSpeed delay by the number of milliseconds mentioned in set Speed
+This command is useful for  demonstration purpose or if you are using a slow web application",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+17,18) What is same origin policy? How you can avoid same origin policy?,"The “Same Origin Policy” is introduced for security reason, and it ensures that content of your site will never be accessible by a script from another site.  As per the policy, any code loaded within the browser can only operate within that website’s domain.
+To avoid “Same Origin Policy” proxy injection method is used, in proxy injection mode the Selenium Server acts as a client configured HTTP proxy , which sits between the browser and application under test and then masks the AUT under a fictional URL",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+18,19) What is heightened privileges browsers?,"The purpose of heightened privileges is similar to Proxy Injection, allows websites to do something that are not commonly permitted.  The key difference is that the browsers are launced in a special mode called heightened privileges.  By using these browser mode, Selenium core can open the AUT directly and also read/write its content without passing the whole AUT through the Selenium RC server.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+19,20) How you can use “submit” a form using Selenium ?,"You can use “submit” method on element to submit form-
+element.submit () ;
+Alternatively you can use click method on the element which does form submission",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+20,21) What are the features of TestNG and list some of the functionality in TestNG which makes it more effective?,"TestNG is a testing framework based on JUnit and NUnit to simplify a broad range of testing needs, from Unit Testing to Integration Testing. And the functionality which makes it efficient testing framework are
+Support for annotations
+Support for data-driven testing
+Flexible test configuration
+Ability to re-execute failed test cases",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+21,22) Mention what is the difference between Implicit wait and Explicit wait?,"Implicit Wait: Sets a timeout for all successive Web Element searches. For the specified amount of time it will try looking for element again and again before throwing a NoSuchElementException.  It waits for elements to show up.
+Explicit Wait :  It is a one-timer, used for a particular search.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+22,23) Which attribute you should consider throughout the script in frame for “if no frame Id as well as no frame name”?,"You can use…..driver.findElements(By.xpath(“//iframe”))….
+This will return list of frames.
+You will need to  switch to each and every frame and search for locator which we want.
+Then break the loop",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+23,24) Explain what is the difference between find elements () and find element () ?,"find element ():
+It finds the first element within the current page using the given “locating mechanism”.  It returns a single WebElement
+findElements () : Using the given “locating mechanism” find all the elements within the current page.  It returns a list of web elements.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+24,25) Explain what are the JUnits annotation linked with Selenium?,"The JUnits annotation linked with Selenium are
+@Before public void method() – It will perform the method () before each test, this method can prepare the test
+@Test public void method() – Annotations @Test identifies that this method is a test method environment
+@After public void method()- To execute a method before this annotation is used, test method must start with test@Before",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+25,26) Explain what is Datadriven framework and Keyword driven?,"Datadriven framework:  In this framework, the test data is separated and kept outside the Test Scripts, while Test Case logic resides in Test Scripts.  Test data is read from the external files ( Excel Files) and are loaded into the variables inside the Test Script.  Variables are used for both for input values and for verification values.
+Keyworddriven framework: The keyword driven frameworks requires the development of data tables and keywords, independent of the test automation.  In a keyword driven test, the functionality of the application under test is documented in a table as well as step by step instructions for each test.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+26,27) Explain how you can login into any site if it’s showing any authentication popup for password and username?,"Pass the username and password with url
+Syntax-http://username:password@url
+ex- http://creyate:This email address is being protected from spambots. You need JavaScript enabled to view it.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+27,28) Explain how to assert text of webpage using selenium 2.0 ?,"WebElement el = driver.findElement(By.id(“ElementID”))
+//get test from element and stored in text variable
+String text = el.getText();
+//assert text from expected
+Assert.assertEquals(“Element Text”, text);",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+28,29) Explain what is the difference between Borland Silk and Selenium?,"Silk Test Tool
+Selenium Test Tool
+Borland Silk test is not a free testing tool
+Selenium is completely free test automation tool
+Silk test supports only Internet Explorer and Firefox
+Selenium supports many browsers like Internet Explorer, Firefox, Safari, Opera and so on
+Silk test uses test scripting language
+Selenium suite has the flexibility to use many languages like Java, Ruby,Perl and so on
+Silk test can be used for client server applications
+Selenium can be used for only web application",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+29,30) What is Object Repository ?,An object repository is an essential entity in any UI automations which allows a tester to store all object that will be used in the scripts in one or more centralized locations rather than scattered all over the test scripts.,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+30,31) Explain how Selenium Grid works?,"Selenium Grid sent the tests to the hub. These tests are redirected to Selenium Webdriver, which launch the browser and run the test.  With entire test suite, it allows for running tests in parallel.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+31,32) Can we use Selenium grid for performance testing?,Yes. But not as effectively as a dedicated Performance Testing tool like Loadrunner.,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+32,33)  List the advantages of Webdriver over Selenium Server?,"If you are using Selenium-WebDriver, you don’t need the Selenium Server as it is using totally different technology
+Selenium Server provides Selenium RC functionality which is used for Selenium 1.0 backwards compatibility
+Selenium Web driver makes direct calls to browser using each browsers native support for automation, while Selenium RC requires selenium server to inject Javascript into the browser",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+33,34)  Mention what are the capabilities of Selenium WebDriver or Selenium 2.0 ?,"WebDriver should be used when requiring improvement support for
+Handling multiple frames, pop ups , multiple browser windows and alerts
+Page navigation and drag & drop
+Ajax based UI elements
+Multi browser testing including improved functionality for browser not well supported by Selenium 1.0",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+34,35)  While injecting capabilities in webdriver to perform tests on a browser which is not supported by a webdriver what is the limitation that one can come across?,Major limitation of injecting capabilities is that “findElement” command may not work as expected.,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+35,36)  Explain how you can find broken images in a page using Selenium Web driver ?,"To find the broken images in a page using Selenium web driver is
+Get XPath and get all the links in the page using tag name
+In the page click on each and every link
+Look for 404/500 in the target page title",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+36,37)  Explain how you can handle colors in web driver?,"To handle colors in web driver you can use
+Use getCssValue(arg0) function to get the colors by sending ‘color’ string as an argument",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+37,38)  Using web driver how you can store a value which is text box?,"You can use following command to store a value which is text box using web driver
+driver.findElement(By.id(“your Textbox”)).sendKeys(“your keyword”);",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+38,39)  Explain how you can switch between frames?,"To switch between frames webdrivers [ driver.switchTo().frame() ] method takes one of the three possible arguments
+A number:  It selects the number by its (zero-based) index
+A name or ID: Select a frame by its name or ID
+Previously found WebElement: Using its previously located WebElement select a frame",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+39,40)  Mention 5 different exceptions you had in Selenium web driver?,"The 5 different exceptions you had in Selenium web drivers are
+WebDriverException
+NoAlertPresentException
+NoSuchWindowException
+NoSuchElementException
+TimeoutException",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+40,41)  Explain using Webdriver how you can perform double click ?,"You can perform double click by using
+Syntax- Actions act = new Actions (driver);
+act.doubleClick(webelement);",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+41,42) How will you use  Selenium to upload a file ?,"You can use “type”command to type in a file input box of upload file. Then, you have to use “Robot” class in JAVA to make file upload work.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+42,43) Which web driver implementation is fastest?,"HTMLUnit Driver implementation is fastest, HTMLUnitDriver does not execute tests on browser but plain http request, which is far quick than launching a browser and executing tests",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+43,44) Explain how you can handle frames using Selenium 2.0 ?,"To bring control on HTML frame you can use “SwitchTo” frame method-
+driver.switchTo().frame(“frameName”);
+To specify a frame you can use index number
+driver.switchTo().frame(“parentFrame.4.frameName”);
+This would bring control on frame named- “frameName” of the 4th sub frame names “parentFrame”",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+44,45) What is the difference between getWindowhandles() and getwindowhandle() ?,"getwindowhandles(): It is used to get the address of all the open browser and its return type is Set<String>
+getwindowhandle(): It is used to get the address of the current browser where the control is and return type is string",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+45,46) Explain how you can switch back from a frame?,"To switch back from a frame use method defaultContent()
+Syntax-driver.switchTo().defaultContent();",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+46,47) List out different types of locators?,"Different types of locators are
+By.id()
+By.name()
+By.tagName()
+By.className()
+By.linkText()
+By.partialLinkText()
+By.xpath
+By.cssSelector()",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+47,48) What is the command that is used in order to display the values of a variable into the output console or log?,"In order to display a constant string, command can be used is echo <constant string>
+If order to display the value of a variable you can use command like echo ${variable name>>
+Above is using PHP. If you are using Java, replace echo with System.out.println",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+48,49)   Explain how you can use recovery scenario with Selenium?,Recovery scenarios depends upon the programming language you use.  If you are using Java then you can use exception handling to overcome same.  By using “Try Catch Block” within your Selenium WebDriver Java tests,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+49,50) Explain how to iterate through options in test script?,"To iterate through options in test script you can loop features of the programming language, for example to type different test data in a text box you can use “for” loop in Java
+// test data collection in an array
+String[ ] testData = { “test1” , “test2” , “test3” } ;
+// iterate through each test data
+For  (string s: test data) { selenium.type ( “elementLocator”, testData) ; }",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+50,51) How can you prepare customized html report using TestNG in hybrid framework ?,"There are three ways
+Junit: With the help of ANT
+TestNG: Using inbuilt default.html to get the HTML report. Also XST reports from ANT, Selenium, Testng combinations
+Using our own customized reports using XSL jar for converting XML content to HTML",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+51,52) From your test script how you can create html test report?,"To create html test report there are three ways
+TestNG:  Using inbuilt default.html to get the HTML report. Also XLST reports from ANT, Selenium, TestNG combination
+JUnit: With the help of ANT
+Using our own customized reports using XSL jar for converting XML content to HTML",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+52,53)  Explain how you can insert a break point in Selenium IDE ?,"In Selenium IDE to insert a break point
+Select “Toggle break point” by right click on the command in Selenium IDE
+Press “B” on the keyboard and select the command in Selenium IDE
+Multiple break points can be set in Selenium IDE",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+53,54)  Explain in Selenium IDE how can you debug the tests?,"Insert a break point from the location from where you want to execute test step by step
+Run the test case
+At the given break point execution will be paused
+To continue with the next statement click on the blue button
+Click on the “Run” button to continue executing all the commands at a time",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+54,55)  What is Selenese and what are the types of Selenese ?,"Selenese is a selenium set of command which are used for running the test
+There are three types of Selenese
+Actions: It is used for performing the operations and interactions with the target elements
+Assertions: It is used as a check points
+Accessors: It is used for storing the values in a variable",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+55,56)  Explain what are the limitations of Selenium IDE?,"The limitations of Selenium IDE
+Exceptional handling is not present
+Selenium IDE uses only HTML languages
+External databases reading is not possible with IDE
+Reading from the external files like .txt, .xls is not possible",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+56,57)  What are the two modes of views in Selenium IDE ?,Either Selenium IDE can be opened as a pop up window or in side bar,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+57,58)  In selenium IDE what are the element locators that can be used to locate elements on web page?,"In selenium there are mainly 4 locators that are used
+X-path locators
+Css locators
+Html id
+Html name",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+58,59)  In Selenium IDE how you can generate random numbers and dates for test data ?,"In Selenium IDE you can generate random numbers by using Java Script
+type
+css=input#s
+javascript{Math.random()}
+And for
+type
+css=input#s
+javascript{new Date()}",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+59,60)  How you can convert any Selenium IDE tests from Selenese to another language?,You can use the format option of Selenium IDE to convert tests into another programming language,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+60,61)  Using Selenium IDE is it possible to get data from a particular html table cell ?,"You can use the “storeTable” command
+Example store text from cell 0,2 from an html table
+storeTable
+Css=#table 0.2
+textFromCell",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+61,62)  Explain what can cause a Selenium IDE test to fail?,"When a locator has changed and Selenium IDE cannot locate the element
+When element Selenium IDE waiting to access did not appear on the web page and the operation timed out
+When element Selenium IDE was trying to access was not created",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+62,63)  Explain how you can debug the tests in Selenium IDE ?,"Insert a break point from the location where you want to execute step by step
+Run the test case
+At the given break point execution will be paused
+To continues with the next step click on the Blue button
+To run commands at a time click on run button",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+63,64)  From Selenium IDE how you can execute a single line?,"From Selenium IDE single line command can be executed in two ways
+Select “Execute this command” by right clicking on the command in Selenium IDE
+Press “X” key on the keyboard after selecting the command in Selenium IDE",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+64,65)  In which format does source view shows your script in Selenium IDE ?,In Selenium IDE source view shows your script in XML format,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+65,66)  Explain how you can insert a start point in Selenium IDE?,"In two ways selenium IDE can be set
+Press “S” key on the keyboard and select the command in Selenium IDE
+In Seleniun IDE right click on the command and the select  “Set / Clear Start Point”",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+66,67)  What if you have written your own element locator and how would you test it?,,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+67,68)  What is regular expressions? How you can use regular expressions in Selenium ?,A regular expression is a special text string used for describing a search pattern. In Selenium IDE regular expression can be used with the keyword- regexp: as a prefix to the value and patterns needs to be included for the expected values.,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+68,69)  What are core extension ?,"If you want to “extend” the defualt functionality provided by Selenium Function Library , you can create a Core Extension. They are also called “User Extension”. You can even download ready-made Core Extension created by other Selenium enthusiats.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+69,70)  How will you handle working with multiple windows in Selenium ?,We can use the command selectWindow to switch between windows. This command uses the title of Windows to identify which window to switch to.,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+70,71)  How will you verify the specific position of an web element,You can use verifyElementPositionLeft & verifyElementPositionTop. It does a pixel comparison of the position of the element from the Left and Top of page respectively,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+71,72)  How can you retrive the message in an alert box ?,You can use the storeAlert command which will fetch the message of the alert pop up and store it in a variable.,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+72,73) What is selenium RC (Remote Control)?,"Selenium IDE have limitations in terms of browser support and language support. By using Selenium RC limitation can be diminished.
+On different platforms and  different web browser for automating web application  selenium RC is used with languages like Java, C#, Perl, Python
+Selenium RC is a java based and using any language it can interact with the web application
+Using server you can bypass the restriction and run your automation script running against any web application",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+73,74) Why Selenium RC is used?,"Selenium IDE does not directly support many functions like condition statements, Iteration, logging and reporting of test results, unexpected error handling and so on as IDE supports only HTML language.  To handle such issues Selenium RC is used  it supports the language like Perl, Ruby, Python, PHP using these languages we can write the program to achieve the IDE issues.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+74,75) Explain what is the main difference between web-driver and RC ?,"The main difference between Selenium RC and Webdriver is that, selenium RC injects javascript function into browsers when the page is loaded. On the other hand, Selenium Webdriver drives the browser using browsers built in support",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+75,76) What are the advantages of RC?,"Advantages of RC are
+Can read or write data from/ to .xls, .txt, etc
+It can handle dynamic objects and Ajax based UI elements
+Loops and conditions can be used for better performance and flexibility
+Support many Programming languages and Operating Systems
+For any JAVA script enabled browser Selenium RC can be used",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+76,77) Explain what is framework and what are the frameworks available in RC?,"A collection of libraries and classes is known as Framework and they are helpful when testers has to automate test cases. NUnit, JUnit, TestNG, Bromine, RSpec, unittest are some of the frameworks available in RC .",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+77,78) How can we handle pop-ups in RC ?,"To handle pop-ups in RC , using selectWindow method, pop-up window will be selected and windowFocus method will let the control from current window to pop-up windows and perform actions according to script",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+78,79) What are the technical limitations while using Selenium RC?,"Apart from “same origin policy” restriction from js, Selenium is also restricted from exercising anything that is outside browser.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+79,80) Can we use Selenium RC to drive tests on two different browsers on one operating system without Selenium Grid?,"Yes, it is possible when you are not using JAVA testing framework.  Instead of using Java testing framework if you are using java client driver of selenium then TestNG allows you to do this.  By using “parallel=test” attribute you can set tests to be executed in parallel and can define two different tests, each using different browser.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+80,81) Why to use TestNG with Selenium RC ?,"If you want full automation against different server and client platforms, You need a way to invoke the tests from a command line process, reports that tells you what happened and flexibility in how you create your test suites. TestNG gives that flexibility.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+81,82) Explain how you can capture server side log Selenium Server?,"To capture server side log in Selenium Server, you can use command
+java –jar .jar –log selenium.log",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+82,83) Other than the default port 4444 how you can run Selenium Server?,You can run Selenium server on java-jar selenium-server.jar-port other than its default port,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+83,84) How Selenium grid hub keeps in touch with RC slave machine?,At predefined time selenium grid hub keeps polling all RC slaves to make sure it is available for testing.  The deciding parameter is called “remoteControlPollingIntervalSeconds” and is defined in “grid_configuration.yml”file,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+84,85) Using Selenium how can you handle network latency ?,To handle network latency you can use driver.manage.pageloadingtime for network latency,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+85,86) To enter values onto text boxes what is the command that can be used?,To enter values onto text boxes we can use command sendkeys(),https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+86,87) How do you identify an object using selenium?,"To identify an object using Selenium you can use
+isElementPresent(String locator)
+isElementPresent takes a locator as the argument and if found returns a Boolean",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+87,88) In Selenium what are Breakpoints and Startpoints?,"Breakpoints: When you implement a breakpoint in your code, the execution will stop right there. This helps you to verify that your code is working as expected.
+StartpointsStartpoint indicates the point from where the execution should begin. Startpoint can be used when you want to run the testscript from the middle of the code or a breakpoint.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+88,89) Mention why to choose Python over Java in Selenium?,"Few points that favor Python over Java to use with Selenium is,
+Java programs tend to run slower compared to Python programs.
+Java uses traditional braces to start and ends blocks, while Python uses indentation.
+Java employs static typing, while Python is dynamically typed.
+Python is simpler and more compact compared to Java.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+89,90) Mention what are the challenges in Handling Ajax Call in Selenium Webdriver?,"The challenges faced in Handling Ajax Call in Selenium Webdriver are
+Using ""pause"" command for handling Ajax call is not completely reliable. Long pause time makes the test unacceptably slow and increases the testing time. Instead, ""waitforcondition"" will be more helpful in testing Ajax applications.
+It is difficult to assess the risk associated with particular Ajax applications
+Given full freedom to developers to modify Ajax application makes the testing process challenging
+Creating automated test request may be difficult for testing tools as such AJAX application often use different encoding or serialization technique to submit POST data.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+90,91) Mention what is IntelliJ?,Intellij is an IDE that helps you to write better and faster code for Selenium. Intellij can be used in the option to Java bean and Eclipse.,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+91,92) Mention in what ways you can customize TestNG report?,"You can customize TestNG report in two ways,
+Using ITestListener Interface
+Using IReporter Interface",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+92,93) To generate pdf reports mention what Java API is required?,"To generate pdf reports, you need Java API IText.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+93,94) Mention what is Listeners in Selenium WebDriver?,"In Selenium WebDriver, Listeners ""listen"" to the event defined in the selenium script and behave accordingly. It allows customizing TestNG reports or logs. There are two main listeners i.e. WebDriver Listeners and TestNG Listeners.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+94,95) Mention what are the types of Listeners in TestNG?,"The types of Listeners in TestNG are,
+IAnnotationTransformer
+IAnnotationTransformer2
+IConfigurable
+IConfigurationListener
+IExecutionListener
+IHookable
+IInvokedMethodListener
+IInvokedMethodListener2
+IMethodInterceptor
+IReporter
+ISuiteListener
+ITestListener",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+95,96) Mention what is desired capability? How is it useful in terms of Selenium?,"The desired capability is a series of key/value pairs that stores the browser properties like browser name, browser version, the path of the browser driver in the system, etc. to determine the behavior of the browser at run time.
+For Selenium,
+It can be used to configure the driver instance of Selenium WebDriver.
+When you want to run the test cases on a different browser with different operating systems and versions.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+96,97) For Database Testing in Selenium Webdriver what API is required?,"For Database Testing in Selenium Webdriver, you need JDBC (Java Database Connectivity) API. It allows you to execute SQL statements.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+97,98) Mention when to use AutoIT?,Selenium is designed to automate web-based applications on different browsers. But to handle window GUI and non-HTML popups in the application you need AutoIT. know more about How to use AutoIT with Selenium,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+98,99) Mention why do you need Session Handling while working with Selenium?,,https://www.guru99.com/top-100-selenium-interview-questions-answers.html
+99,100) Mention what are the advantages of Using Git Hub For Selenium?,"The advantages of Using Git Hub for Selenium are
+Multiple people when they work on the same project they can update project details and inform other team members simultaneously.
+Jenkins can help you to build the project from the remote repository regularly. This helps you to keep track of failed builds.
+Prep Up For your Job Interview!!! Go through Selenium Tutorial to be better prepared.
+Test your knowledge with Selenium Quiz
+Free PDF Download: Selenium Interview Questions & Answers
+This detailed Selenium with Java interview questions PDF will help you to clear the doubts about Selenium testing interview questions and will also help you to crack the interview.",https://www.guru99.com/top-100-selenium-interview-questions-answers.html
